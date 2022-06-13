@@ -6,5 +6,5 @@ class Mobiles(models.Model):
     brand=models.CharField(max_length=120)
     price=models.PositiveIntegerField(max_length=120)
     color=models.CharField(max_length=120)
-    memory=models.PositiveIntegerField(max_length=50)
+    memory=models.TextField(max_length=50)
 # Create your models here.
